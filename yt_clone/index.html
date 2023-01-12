@@ -1,0 +1,61 @@
+ <!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="main.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-100">
+ <header class="bg-white divide-y ml-16">
+    <div class="flex justify-between items-center h-20 mx-4">
+        <div class="-ml-3">
+            <img src="images/yt-logo.png" alt="youtube_clone" class="w-23 h-14">
+        </div>
+
+        <div class="flex items-center justify-center flex-grow">
+            <input type="text" placeholder="search" class="border-2 rounded-l-lg border-grey-400 h-8 pl-2 focus:outline-none focus:border-blue-600 w-3/5">
+            <button class="bg-gray-200 flex items-center justify-center h-8 w-16 border-grey-400 rounded-r-xl border-l-0 hover:bg-gray-300">
+                <i class="material-icons">
+                    search
+                </i>
+
+            </button>
+        </div>
+
+        <div class="flex justify-center items-center space-x-4">
+            <button><i class="material-icons">video_call</i></button>
+            <button><i class="material-icons">notifications</i></button>
+            <button class="w-8 h-8 rounded-full bg-blue-500"></button>
+
+        </div>
+    </div>
+
+    <div  class="flex items-center px-2 space-x-4">
+        <button class="bg-gray-300 border-2 rounded-lg text-black  m-2 p-1 hover:bg-gray-400">All</button>
+        <button class="bg-gray-300 border-2 rounded-lg text-black  m-2 p-1 hover:bg-gray-400">Seminars</button>
+        <button class="bg-gray-300 border-2 rounded-lg text-black  m-2 p-1 hover:bg-gray-400">Podcasts</span>
+    </div>
+ </header>
+ <aside class="fixed top-0 w-16 h-screen bg-white flex-col mt-6 pl-4">
+<button class="bg-white hover:bg-gray-200 w-10 h-10 rounded-full">
+<i class="material-icons">
+    menu
+</i></button>
+<div class="mt-6">
+    <button class="flex items-center justify-center  flex-col hover:bg-gray-200 py-2 w-full"><i class="material-icons small">home</i> 
+    <span class="text-xs">Home</span>
+    </button>
+    <button class="flex items-center justify-center  flex-col hover:bg-gray-200 py-2 w-full"><i class="material-icons small">local_fire_department</i> 
+        <span class="text-xs">Trending</span>
+    </button>
+    <button class="flex items-center justify-center  flex-col hover:bg-gray-200 py-2 w-full"><i class="material-icons small">subscriptions</i> 
+        <span class="text-xs">Sunscriptions</span>
+    </button>
+    <button class="flex items-center justify-center  flex-col hover:bg-gray-200 py-2 w-full"><i class="material-icons small">video_library</i> 
+        <span class="text-xs">Library</span>
+    </button>
+</div>
+ </aside>
+</body>
+</html>
